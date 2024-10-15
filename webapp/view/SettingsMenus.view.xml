@@ -1,0 +1,81 @@
+<mvc:View controllerName="responsivetable.controller.SettingsMenus"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    	height="100%">
+
+   	<Page showHeader="true">
+    
+     <Text text="Anil keerthi"></Text>
+     	<Table id="idProductsTable"
+			items="{JSONModel>/Products}">
+			<headerToolbar>
+				<OverflowToolbar>
+					<Title text="Products" level="H2"/>
+					<ToolbarSpacer/>
+					<Button
+						tooltip="Sort"
+						icon="sap-icon://sort"
+						press="handleSortButtonPressed"/>
+					<Button
+						tooltip="Filter"
+						icon="sap-icon://filter"
+						press="handleFilterButtonPressed"/>
+					<Button
+						tooltip="Group"
+						icon="sap-icon://group-2"
+						press="handleGroupButtonPressed"/>
+					<ToggleButton icon="sap-icon://menu" tooltip="Enable Custom Context Menu" press="onToggleContextMenu" />
+				</OverflowToolbar>
+			</headerToolbar>
+			<infoToolbar>
+				<OverflowToolbar id="vsdFilterBar" visible="false">
+					<Text id="vsdFilterLabel" />
+				</OverflowToolbar>
+			</infoToolbar>
+			<columns>
+				<Column id="product" width="12em" headerMenu="columnHeaderMenu"><Text text="Product" /></Column>
+				<Column minScreenWidth="Tablet" demandPopin="true"><Text text="Supplier" /></Column>
+				<Column minScreenWidth="Tablet" demandPopin="true" hAlign="End"><Text text="Dimensions" /></Column>
+				<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center"><Text text="Weight" /></Column>
+				<Column hAlign="End"><Text text="Price" /></Column>
+			</columns>
+			<items>
+				<ColumnListItem vAlign="Middle">
+					<cells>
+						<ObjectIdentifier title="{JSONModel>Name}" text="{JSONModel>ProductId}" />
+						<Text text="{JSONModel>SupplierName}" />
+						<Text text="{JSONModel>Width} x {JSONModel>Depth} x {JSONModel>Height} {JSONModel>DimUnit}" />
+						 <ObjectIdentifier text="{JSONModel>WeightMeasure} {JSONModel>WeightUnit}" /> 
+
+
+                         <!-- <m:ObjectStatus
+
+                    text="{JSONModel>WeightMeasure} {JSONModel>WeightUnit}"
+
+                    state="{= ${JSONModel>WeightMeasure} === 0 ? 'None' : ${JSONModel>WeightMeasure} === 1000 ? 'Success' : ${JSONModel>WeightMeasure} === 2000 ? 'Warning' : 'Error'}"/>
+
+                     -->
+                        <ObjectIdentifier text="{JSONModel>Price} {JSONModel>CurrencyCode}" /> 
+
+					 <!-- <ObjectNumber
+                            number="{JSONModel>WeightMeasure}"
+                            unit="{JSONModel>WeightUnit}"
+                            state="{
+                                path: 'JSONModel>WeightMeasure',{JSONModel>WeightUnit}
+                                formatter: 'responsivetable.view.Formatter.weightState'
+                            }" />
+						<ObjectNumber
+								number="{
+									parts:[{path:'Price'},{path:'CurrencyCode'}],
+									type: 'sap.ui.model.type.Currency',
+									formatOptions: {showMeasure: false}
+								}"
+								unit="{CurrencyCode}" /> -->
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+    
+       </Page>
+    
+</mvc:View>

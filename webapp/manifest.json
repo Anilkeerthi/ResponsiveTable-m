@@ -1,0 +1,137 @@
+{
+  "_version": "1.65.0",
+  "sap.app": {
+    "id": "responsivetable",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.15.1",
+      "toolsId": "4e8e9ac1-9060-4372-b14c-4ce99ab491e9"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.129.2",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "responsivetable.i18n.i18n"
+        }
+      },
+      "jsonModel": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "./model/data.json"
+       
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "responsivetable.view",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "clearControlAggregation": false
+      },
+      "routes": [
+        {
+          "name": "RouteDashboard",
+          "pattern": ":?query:",
+          "target": [
+            "TargetDashboard"
+          ]
+        },
+        {
+          "name": "RouteSettingsMenus",
+          "pattern": "SettingsAndMenusPage",
+          "target": [
+            "TargetSettingsMenus"
+          ]
+        },
+        {
+          "name": "RouteEditableTable",
+          "pattern": "EditableTablePage",
+          "target": [
+            "TargetEditableTable"
+          ]
+        }
+      ],
+      "targets": {
+        "TargetDashboard": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Dashboard",
+          "viewName": "Dashboard"
+        },
+        "TargetSettingsMenus": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "SettingsMenus",
+          "viewName": "SettingsMenus"
+        },
+        "TargetEditableTable": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "EditableTable",
+          "viewName": "EditableTable"
+        }
+
+      }
+    },
+    "rootView": {
+      "viewName": "responsivetable.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "App"
+    }
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "responsivetable"
+  }
+}

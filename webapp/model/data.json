@@ -1,0 +1,709 @@
+{
+    "Products": [
+      {
+        "ProductId": "HT-1000",
+        "Name": "Notebook Basic 15",
+        "SupplierName": "Very Best Screens",
+        "Width": 30,
+        "Depth": 18,
+        "Height": 3,
+        "DimUnit": "cm",
+        "WeightMeasure": 4.2,
+        "WeightUnit": "KG",
+        "Price": 956,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1001",
+        "Name": "Notebook Basic 17",
+        "SupplierName": "Very Best Screens",
+        "Width": 29,
+        "Depth": 17,
+        "Height": 3.1,
+        "DimUnit": "cm",
+        "WeightMeasure": 4.5,
+        "WeightUnit": "KG",
+        "Price": 1249,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1002",
+        "Name": "Notebook Basic 18",
+        "SupplierName": "Very Best Screens",
+        "Width": 28,
+        "Depth": 19,
+        "Height": 2.5,
+        "DimUnit": "cm",
+        "WeightMeasure": 4.2,
+        "WeightUnit": "KG",
+        "Price": 1570,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1003",
+        "Name": "Notebook Basic 19",
+        "SupplierName": "Smartcards",
+        "Width": 32,
+        "Depth": 21,
+        "Height": 4,
+        "DimUnit": "cm",
+        "WeightMeasure": 4.2,
+        "WeightUnit": "KG",
+        "Price": 1650,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1007",
+        "Name": "ITelO Vault",
+        "SupplierName": "Technocom",
+        "Width": 32,
+        "Depth": 22,
+        "Height": 3,
+        "DimUnit": "cm",
+        "WeightMeasure": 0.2,
+        "WeightUnit": "KG",
+        "Price": 299,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1010",
+        "Name": "Notebook Professional 15",
+        "SupplierName": "Very Best Screens",
+        "Width": 33,
+        "Depth": 20,
+        "Height": 3,
+        "DimUnit": "cm",
+        "WeightMeasure": 4.3,
+        "WeightUnit": "KG",
+        "Price": 1999,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1011",
+        "Name": "Notebook Professional 17",
+        "SupplierName": "Very Best Screens",
+        "Width": 33,
+        "Depth": 23,
+        "Height": 3,
+        "DimUnit": "cm",
+        "WeightMeasure": 4.1,
+        "WeightUnit": "KG",
+        "Price": 2299,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1020",
+        "Name": "ITelO Vault Net",
+        "SupplierName": "Technocom",
+        "Width": 10,
+        "Depth": 1.8,
+        "Height": 17,
+        "DimUnit": "cm",
+        "WeightMeasure": 0.16,
+        "WeightUnit": "KG",
+        "Price": 459,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1030",
+        "Name": "Tablet Pro 8",
+        "SupplierName": "Technocom",
+        "Width": 25,
+        "Depth": 16,
+        "Height": 0.9,
+        "DimUnit": "cm",
+        "WeightMeasure": 0.6,
+        "WeightUnit": "KG",
+        "Price": 899,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1031",
+        "Name": "Tablet Pro 10",
+        "SupplierName": "Technocom",
+        "Width": 27,
+        "Depth": 17,
+        "Height": 1,
+        "DimUnit": "cm",
+        "WeightMeasure": 0.7,
+        "WeightUnit": "KG",
+        "Price": 1099,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1040",
+        "Name": "Smartphone X",
+        "SupplierName": "MobileTech",
+        "Width": 7.5,
+        "Depth": 0.7,
+        "Height": 15,
+        "DimUnit": "cm",
+        "WeightMeasure": 0.18,
+        "WeightUnit": "KG",
+        "Price": 799,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1041",
+        "Name": "Smartphone Z",
+        "SupplierName": "MobileTech",
+        "Width": 7,
+        "Depth": 0.6,
+        "Height": 14,
+        "DimUnit": "cm",
+        "WeightMeasure": 0.16,
+        "WeightUnit": "KG",
+        "Price": 699,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1050",
+        "Name": "Monitor 24-inch",
+        "SupplierName": "ScreenMaster",
+        "Width": 55,
+        "Depth": 5,
+        "Height": 35,
+        "DimUnit": "cm",
+        "WeightMeasure": 4.5,
+        "WeightUnit": "KG",
+        "Price": 199,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1051",
+        "Name": "Monitor 27-inch",
+        "SupplierName": "ScreenMaster",
+        "Width": 65,
+        "Depth": 6,
+        "Height": 38,
+        "DimUnit": "cm",
+        "WeightMeasure": 5.1,
+        "WeightUnit": "KG",
+        "Price": 299,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1060",
+        "Name": "Gaming Laptop",
+        "SupplierName": "PowerComputers",
+        "Width": 40,
+        "Depth": 28,
+        "Height": 4,
+        "DimUnit": "cm",
+        "WeightMeasure": 5.5,
+        "WeightUnit": "KG",
+        "Price": 2500,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1061",
+        "Name": "Ultrabook Pro",
+        "SupplierName": "PowerComputers",
+        "Width": 34,
+        "Depth": 22,
+        "Height": 1.5,
+        "DimUnit": "cm",
+        "WeightMeasure": 2,
+        "WeightUnit": "KG",
+        "Price": 1800,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1070",
+        "Name": "Desktop Workstation",
+        "SupplierName": "TechWork",
+        "Width": 50,
+        "Depth": 45,
+        "Height": 20,
+        "DimUnit": "cm",
+        "WeightMeasure": 10,
+        "WeightUnit": "KG",
+        "Price": 2200,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1071",
+        "Name": "Desktop Tower",
+        "SupplierName": "TechWork",
+        "Width": 60,
+        "Depth": 50,
+        "Height": 25,
+        "DimUnit": "cm",
+        "WeightMeasure": 12,
+        "WeightUnit": "KG",
+        "Price": 1500,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1080",
+        "Name": "Wireless Mouse",
+        "SupplierName": "PeripheralsPlus",
+        "Width": 6,
+        "Depth": 10,
+        "Height": 4,
+        "DimUnit": "cm",
+        "WeightMeasure": 0.1,
+        "WeightUnit": "KG",
+        "Price": 49,
+        "CurrencyCode": "EUR"
+      },
+      {
+        "ProductId": "HT-1081",
+        "Name": "Mechanical Keyboard",
+        "SupplierName": "PeripheralsPlus",
+        "Width": 45,
+        "Depth": 12,
+        "Height": 2.5,
+        "DimUnit": "cm",
+        "WeightMeasure": 0.8,
+        "WeightUnit": "KG",
+        "Price": 120,
+        "CurrencyCode": "EUR"
+      }
+    ],
+   "ProductCollection": [
+      {
+          "Product": "Notebook Basic 15",
+          "Quantity": "10 PC",
+          "Weight": "4.2 KG",
+          "Price": "956.00 EUR",
+          "ProductId": "HT-1000"
+      },
+      {
+          "Product": "Notebook Basic 17",
+          "Quantity": "20 PC",
+          "Weight": "4.5 KG",
+          "Price": "1,249.00 EUR",
+          "ProductId": "HT-1001"
+      },
+      {
+          "Product": "Notebook Basic 18",
+          "Quantity": "10 PC",
+          "Weight": "4.2 KG",
+          "Price": "1,570.00 EUR",
+          "ProductId": "HT-1002"
+      },
+      {
+          "Product": "Notebook Basic 19",
+          "Quantity": "15 PC",
+          "Weight": "4.2 KG",
+          "Price": "1,650.00 EUR",
+          "ProductId": "HT-1003"
+      },
+      {
+          "Product": "ITelO Vault",
+          "Quantity": "15 PC",
+          "Weight": "0.2 KG",
+          "Price": "299.00 EUR",
+          "ProductId": "HT-1007"
+      },
+      {
+          "Product": "Notebook Professional 15",
+          "Quantity": "16 PC",
+          "Weight": "4.3 KG",
+          "Price": "1,999.00 EUR",
+          "ProductId": "HT-1010"
+      },
+      {
+          "Product": "Notebook Professional 17",
+          "Quantity": "17 PC",
+          "Weight": "4.1 KG",
+          "Price": "2,299.00 EUR",
+          "ProductId": "HT-1011"
+      },
+      {
+        "Product": "Notebook Basic 15",
+        "Quantity": "10 PC",
+        "Weight": "4.2 KG",
+        "Price": "956.00 EUR",
+        "ProductId": "HT-1000"
+    },
+    {
+        "Product": "Notebook Basic 17",
+        "Quantity": "20 PC",
+        "Weight": "4.5 KG",
+        "Price": "1,249.00 EUR",
+        "ProductId": "HT-1001"
+    },
+    {
+        "Product": "Notebook Basic 18",
+        "Quantity": "10 PC",
+        "Weight": "4.2 KG",
+        "Price": "1,570.00 EUR",
+        "ProductId": "HT-1002"
+    },
+    {
+        "Product": "Notebook Basic 19",
+        "Quantity": "15 PC",
+        "Weight": "4.2 KG",
+        "Price": "1,650.00 EUR",
+        "ProductId": "HT-1003"
+    },
+    {
+        "Product": "ITelO Vault",
+        "Quantity": "15 PC",
+        "Weight": "0.2 KG",
+        "Price": "299.00 EUR",
+        "ProductId": "HT-1007"
+    },
+    {
+        "Product": "Notebook Professional 15",
+        "Quantity": "16 PC",
+        "Weight": "4.3 KG",
+        "Price": "1,999.00 EUR",
+        "ProductId": "HT-1010"
+    },
+    {
+        "Product": "Notebook Professional 17",
+        "Quantity": "17 PC",
+        "Weight": "4.1 KG",
+        "Price": "2,299.00 EUR",
+        "ProductId": "HT-1011"
+    },
+    {
+      "Product": "Notebook Basic 15",
+      "Quantity": "10 PC",
+      "Weight": "4.2 KG",
+      "Price": "956.00 EUR",
+      "ProductId": "HT-1000"
+  },
+  {
+      "Product": "Notebook Basic 17",
+      "Quantity": "20 PC",
+      "Weight": "4.5 KG",
+      "Price": "1,249.00 EUR",
+      "ProductId": "HT-1001"
+  },
+  {
+      "Product": "Notebook Basic 18",
+      "Quantity": "10 PC",
+      "Weight": "4.2 KG",
+      "Price": "1,570.00 EUR",
+      "ProductId": "HT-1002"
+  },
+  {
+      "Product": "Notebook Basic 19",
+      "Quantity": "15 PC",
+      "Weight": "4.2 KG",
+      "Price": "1,650.00 EUR",
+      "ProductId": "HT-1003"
+  },
+  {
+      "Product": "ITelO Vault",
+      "Quantity": "15 PC",
+      "Weight": "0.2 KG",
+      "Price": "299.00 EUR",
+      "ProductId": "HT-1007"
+  },
+  {
+      "Product": "Notebook Professional 15",
+      "Quantity": "16 PC",
+      "Weight": "4.3 KG",
+      "Price": "1,999.00 EUR",
+      "ProductId": "HT-1010"
+  },
+  {
+      "Product": "Notebook Professional 17",
+      "Quantity": "17 PC",
+      "Weight": "4.1 KG",
+      "Price": "2,299.00 EUR",
+      "ProductId": "HT-1011"
+  },
+  {
+    "Product": "Notebook Basic 15",
+    "Quantity": "10 PC",
+    "Weight": "4.2 KG",
+    "Price": "956.00 EUR",
+    "ProductId": "HT-1000"
+},
+{
+    "Product": "Notebook Basic 17",
+    "Quantity": "20 PC",
+    "Weight": "4.5 KG",
+    "Price": "1,249.00 EUR",
+    "ProductId": "HT-1001"
+},
+{
+    "Product": "Notebook Basic 18",
+    "Quantity": "10 PC",
+    "Weight": "4.2 KG",
+    "Price": "1,570.00 EUR",
+    "ProductId": "HT-1002"
+},
+{
+    "Product": "Notebook Basic 19",
+    "Quantity": "15 PC",
+    "Weight": "4.2 KG",
+    "Price": "1,650.00 EUR",
+    "ProductId": "HT-1003"
+},
+{
+    "Product": "ITelO Vault",
+    "Quantity": "15 PC",
+    "Weight": "0.2 KG",
+    "Price": "299.00 EUR",
+    "ProductId": "HT-1007"
+},
+{
+    "Product": "Notebook Professional 15",
+    "Quantity": "16 PC",
+    "Weight": "4.3 KG",
+    "Price": "1,999.00 EUR",
+    "ProductId": "HT-1010"
+},
+{
+    "Product": "Notebook Professional 17",
+    "Quantity": "17 PC",
+    "Weight": "4.1 KG",
+    "Price": "2,299.00 EUR",
+    "ProductId": "HT-1011"
+},
+{
+  "Product": "Notebook Basic 15",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "956.00 EUR",
+  "ProductId": "HT-1000"
+},
+{
+  "Product": "Notebook Basic 17",
+  "Quantity": "20 PC",
+  "Weight": "4.5 KG",
+  "Price": "1,249.00 EUR",
+  "ProductId": "HT-1001"
+},
+{
+  "Product": "Notebook Basic 18",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,570.00 EUR",
+  "ProductId": "HT-1002"
+},
+{
+  "Product": "Notebook Basic 19",
+  "Quantity": "15 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,650.00 EUR",
+  "ProductId": "HT-1003"
+},
+{
+  "Product": "ITelO Vault",
+  "Quantity": "15 PC",
+  "Weight": "0.2 KG",
+  "Price": "299.00 EUR",
+  "ProductId": "HT-1007"
+},
+{
+  "Product": "Notebook Professional 15",
+  "Quantity": "16 PC",
+  "Weight": "4.3 KG",
+  "Price": "1,999.00 EUR",
+  "ProductId": "HT-1010"
+},
+{
+  "Product": "Notebook Professional 17",
+  "Quantity": "17 PC",
+  "Weight": "4.1 KG",
+  "Price": "2,299.00 EUR",
+  "ProductId": "HT-1011"
+},
+{
+  "Product": "Notebook Basic 15",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "956.00 EUR",
+  "ProductId": "HT-1000"
+},
+{
+  "Product": "Notebook Basic 17",
+  "Quantity": "20 PC",
+  "Weight": "4.5 KG",
+  "Price": "1,249.00 EUR",
+  "ProductId": "HT-1001"
+},
+{
+  "Product": "Notebook Basic 18",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,570.00 EUR",
+  "ProductId": "HT-1002"
+},
+{
+  "Product": "Notebook Basic 19",
+  "Quantity": "15 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,650.00 EUR",
+  "ProductId": "HT-1003"
+},
+{
+  "Product": "ITelO Vault",
+  "Quantity": "15 PC",
+  "Weight": "0.2 KG",
+  "Price": "299.00 EUR",
+  "ProductId": "HT-1007"
+},
+{
+  "Product": "Notebook Professional 15",
+  "Quantity": "16 PC",
+  "Weight": "4.3 KG",
+  "Price": "1,999.00 EUR",
+  "ProductId": "HT-1010"
+},
+{
+  "Product": "Notebook Professional 17",
+  "Quantity": "17 PC",
+  "Weight": "4.1 KG",
+  "Price": "2,299.00 EUR",
+  "ProductId": "HT-1011"
+},
+{
+  "Product": "Notebook Basic 15",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "956.00 EUR",
+  "ProductId": "HT-1000"
+},
+{
+  "Product": "Notebook Basic 17",
+  "Quantity": "20 PC",
+  "Weight": "4.5 KG",
+  "Price": "1,249.00 EUR",
+  "ProductId": "HT-1001"
+},
+{
+  "Product": "Notebook Basic 18",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,570.00 EUR",
+  "ProductId": "HT-1002"
+},
+{
+  "Product": "Notebook Basic 19",
+  "Quantity": "15 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,650.00 EUR",
+  "ProductId": "HT-1003"
+},
+{
+  "Product": "ITelO Vault",
+  "Quantity": "15 PC",
+  "Weight": "0.2 KG",
+  "Price": "299.00 EUR",
+  "ProductId": "HT-1007"
+},
+{
+  "Product": "Notebook Professional 15",
+  "Quantity": "16 PC",
+  "Weight": "4.3 KG",
+  "Price": "1,999.00 EUR",
+  "ProductId": "HT-1010"
+},
+{
+  "Product": "Notebook Professional 17",
+  "Quantity": "17 PC",
+  "Weight": "4.1 KG",
+  "Price": "2,299.00 EUR",
+  "ProductId": "HT-1011"
+}, {
+  "Product": "Notebook Basic 15",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "956.00 EUR",
+  "ProductId": "HT-1000"
+},
+{
+  "Product": "Notebook Basic 17",
+  "Quantity": "20 PC",
+  "Weight": "4.5 KG",
+  "Price": "1,249.00 EUR",
+  "ProductId": "HT-1001"
+},
+{
+  "Product": "Notebook Basic 18",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,570.00 EUR",
+  "ProductId": "HT-1002"
+},
+{
+  "Product": "Notebook Basic 19",
+  "Quantity": "15 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,650.00 EUR",
+  "ProductId": "HT-1003"
+},
+{
+  "Product": "ITelO Vault",
+  "Quantity": "15 PC",
+  "Weight": "0.2 KG",
+  "Price": "299.00 EUR",
+  "ProductId": "HT-1007"
+},
+{
+  "Product": "Notebook Professional 15",
+  "Quantity": "16 PC",
+  "Weight": "4.3 KG",
+  "Price": "1,999.00 EUR",
+  "ProductId": "HT-1010"
+},
+{
+  "Product": "Notebook Professional 17",
+  "Quantity": "17 PC",
+  "Weight": "4.1 KG",
+  "Price": "2,299.00 EUR",
+  "ProductId": "HT-1011"
+},
+{
+  "Product": "Notebook Basic 15",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "956.00 EUR",
+  "ProductId": "HT-1000"
+},
+{
+  "Product": "Notebook Basic 17",
+  "Quantity": "20 PC",
+  "Weight": "4.5 KG",
+  "Price": "1,249.00 EUR",
+  "ProductId": "HT-1001"
+},
+{
+  "Product": "Notebook Basic 18",
+  "Quantity": "10 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,570.00 EUR",
+  "ProductId": "HT-1002"
+},
+{
+  "Product": "Notebook Basic 19",
+  "Quantity": "15 PC",
+  "Weight": "4.2 KG",
+  "Price": "1,650.00 EUR",
+  "ProductId": "HT-1003"
+},
+{
+  "Product": "ITelO Vault",
+  "Quantity": "15 PC",
+  "Weight": "0.2 KG",
+  "Price": "299.00 EUR",
+  "ProductId": "HT-1007"
+},
+{
+  "Product": "Notebook Professional 15",
+  "Quantity": "16 PC",
+  "Weight": "4.3 KG",
+  "Price": "1,999.00 EUR",
+  "ProductId": "HT-1010"
+},
+{
+  "Product": "Notebook Professional 17",
+  "Quantity": "17 PC",
+  "Weight": "4.1 KG",
+  "Price": "2,299.00 EUR",
+  "ProductId": "HT-1011"
+}
+
+  ]
+  
+  }
+  
