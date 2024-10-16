@@ -1,0 +1,69 @@
+<mvc:View controllerName="responsivetable.controller.EditableTable1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page showHeader="false" enableScrolling="true" class="sapUiContentPadding"
+        showNavButton="false">
+        
+        <Text text="In this table I used Alternate Row Colours"></Text>
+
+        <content>
+            <Table id="idProductsTableEditablee" 
+               mode="SingleSelectMaster" selectionChange="onItemPress"
+			   items="{
+								path: 'JSONModel>/ProductCollection'
+							}"
+			   >
+                <headerToolbar>
+                    <OverflowToolbar id="otbSubheaderr">
+                        <Title text="Products" level="H2" />
+                        <ToolbarSpacer />
+                        <Button id="editButtonn" text="Edit" type="Transparent" press="onEdit" />
+                        <Button id="saveButtonn" text="Save" type="Transparent" press="onSave" visible="false" />
+                        <Button id="cancelButtonn" text="Cancel" type="Transparent" press="onCancel" visible="false" />
+                    </OverflowToolbar>
+                </headerToolbar>
+                <columns>
+                    <Column width="12em">
+                        <Text text="Product" />
+                    </Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true" hAlign="End">
+                        <Text text="Quantity" />
+                    </Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                        <Text text="Weight" />
+                    </Column>
+                    <Column hAlign="End" >
+                        <Text text="Price" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem vAlign="Middle">
+                        <cells>
+                            <ObjectIdentifier title="{JSONModel>Product}" text="{JSONModel>ProductId}" />
+                            
+                         
+                            <Input value="{JSONModel>Quantity}" editable="{JSONModel>editable}" />
+
+                          
+                            <Input value="{JSONModel>Weight}" editable="{JSONModel>editable}" />
+
+                          
+                            <Input value="{JSONModel>Price}" editable="{JSONModel>editable}" />
+
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+        <footer>
+            <!-- <OverflowToolbar id="otbFooter">
+                <ToolbarSpacer />
+                <Button text="Order" press="onOrder">
+                    <layoutData>
+                        <OverflowToolbarLayoutData priority="NeverOverflow" />
+                    </layoutData>
+                </Button>
+            </OverflowToolbar> -->
+        </footer>
+    </Page>
+</mvc:View>

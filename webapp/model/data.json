@@ -703,6 +703,68 @@
   "ProductId": "HT-1011"
 }
 
+  ],
+  "Dynamic": [
+    {
+      "Product": "Notebook Basic 15",
+      "Supplier": "Very Best Screens",
+      "Status": "Available",
+      "Quantity": 10
+    },
+    {
+      "Product": "Notebook Basic 17",
+      "Supplier": "Very Best Screens",
+      "Status": "Available",
+      "Quantity": 20
+    },
+    {
+      "Product": "Notebook Basic 18",
+      "Supplier": "Very Best Screens",
+      "Status": "Available",
+      "Quantity": 10
+    },
+    {
+      "Product": "Notebook Basic 19",
+      "Supplier": "Smartcards",
+      "Status": "Available",
+      "Quantity": 15
+    },
+    {
+      "Product": "ITelO Vault",
+      "Supplier": "Technocom",
+      "Status": "Available",
+      "Quantity": 15
+    },
+    {
+      "Product": "Notebook Professional 15",
+      "Supplier": "Very Best Screens",
+      "Status": "Available",
+      "Quantity": 16
+    },
+    {
+      "Product": "Notebook Professional 17",
+      "Supplier": "Very Best Screens",
+      "Status": "Available",
+      "Quantity": 17
+    },
+    {
+      "Product": "ITelO Vault Net",
+      "Supplier": "Technocom",
+      "Status": "Available",
+      "Quantity": 14
+    },
+    {
+      "Product": "ITelO Vault SAT",
+      "Supplier": "Technocom",
+      "Status": "Available",
+      "Quantity": 50
+    },
+    {
+      "Product": "Comfort Easy",
+      "Supplier": "Technocom",
+      "Status": "Available",
+      "Quantity": 30
+    }
   ]
   
   }

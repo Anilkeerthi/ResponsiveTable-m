@@ -57,20 +57,23 @@
                      -->
                         <ObjectIdentifier text="{JSONModel>Price} {JSONModel>CurrencyCode}" /> 
 
-					 <!-- <ObjectNumber
+					  <!-- <ObjectNumber
                             number="{JSONModel>WeightMeasure}"
                             unit="{JSONModel>WeightUnit}"
                             state="{
-                                path: 'JSONModel>WeightMeasure',{JSONModel>WeightUnit}
-                                formatter: 'responsivetable.view.Formatter.weightState'
-                            }" />
-						<ObjectNumber
+                                path: 'JSONModel>WeightMeasure',
+                                formatter: 'responsivetable.view.Formatter.weightState'}" /> -->
+
+
+
+							
+						<!-- <ObjectNumber
 								number="{
 									parts:[{path:'Price'},{path:'CurrencyCode'}],
 									type: 'sap.ui.model.type.Currency',
 									formatOptions: {showMeasure: false}
 								}"
-								unit="{CurrencyCode}" /> -->
+								unit="{CurrencyCode}" />  -->
 					</cells>
 				</ColumnListItem>
 			</items>

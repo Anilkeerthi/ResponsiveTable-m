@@ -16,6 +16,14 @@ function (Controller) {
         onClickEditableTable:function(){
             var route = this.getOwnerComponent().getRouter();
             route.navTo("RouteEditableTable")
+        },
+        onClickDynamicWidthTable:function(){
+            var route = this.getOwnerComponent().getRouter();
+            route.navTo("RouteDynamicWidth")
+        },
+        onClickEditableTableRowTable:function(){
+            var route = this.getOwnerComponent().getRouter();
+            route.navTo("RouteEditableTable1")
         }
 
     });

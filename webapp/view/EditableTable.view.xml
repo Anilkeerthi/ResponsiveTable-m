@@ -3,9 +3,11 @@
     xmlns="sap.m">
     	<Page showHeader="false" enableScrolling="true" class="sapUiContentPadding"
 		showNavButton="false">
+        
+    <Text text="In this table I used Alternate Row Colours"></Text>
 
 		<content>
-			<Table id="idProductsTableEditable" growing="true" growingThreshold="10" paste="onPaste">
+			<Table id="idProductsTableEditable" growing="true" growingThreshold="10" alternateRowColors="true" paste="onPaste" >
 				<headerToolbar>
 					<OverflowToolbar id="otbSubheader">
 						<Title text="Products" level="H2" />
@@ -28,14 +30,14 @@
 					<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
 						<Text text="Weight" />
 					</Column>
-					<Column hAlign="End">
+					<Column hAlign="End" >
 						<Text text="Price" />
 					</Column>
 				</columns>
 				<items>
 					<ColumnListItem vAlign="Middle">
 						<cells>
-							<ObjectIdentifier title="{JSONModel>Name}" text="{JSONModel>ProductId}" />
+							<ObjectIdentifier title="{JSONModel>Product}" text="{JSONModel>ProductId}" />
 							<ObjectNumber
 								number="{
 								path:'JSONModel>Quantity',
@@ -43,6 +45,7 @@
 								formatOptions: {showMeasure: false}
 							}"
 								unit="{UoM}" />
+
 							<!-- <ObjectNumber number="{JSONModel>Weight}"
 								state="{
 							path: 'JSONModel>Weight',
@@ -58,6 +61,10 @@
 								formatOptions: {showMeasure: false}
 							}"
 								unit="{CurrencyCode}" />
+
+
+
+
 						</cells>
 					</ColumnListItem>
 				</items>

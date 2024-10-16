@@ -25,16 +25,25 @@ sap.ui.define(
 			this.oEditableTemplate = new ColumnListItem({
 				cells: [
 					new Input({
-						value: "{Name}"
+						value: "{JSONModel>Product} "
+					 }),
+					  new Input({
+						value: "{JSONModel>Quantity}",
+						description: "{JSONModel>UoM}",
+
+
+// coloum doesnot editable 
+            //               new sap.m.Text({
+            // text: "{JSONModel>Quantity}"
+
+
+			
 					}), new Input({
-						value: "{Quantity}",
-						description: "{UoM}"
+						value: "{JSONModel>Weight}",
+						description: "{JSONModel>WeightUnit}"
 					}), new Input({
-						value: "{WeightMeasure}",
-						description: "{WeightUnit}"
-					}), new Input({
-						value: "{Price}",
-						description: "{CurrencyCode}"
+						value: "{JSONModel>Price}",
+						description: "{JSONModel>CurrencyCode}"
 					})
 				]
 			});
@@ -50,8 +59,16 @@ sap.ui.define(
 				key: "ProductId"
 			});
 		},
+
+        
+
         onEdit: function() {
-			this.aProductCollection = deepExtend([], this.oModel.getProperty("/ProductCollection"));
+			//this.aProductCollection = deepExtend([], this.oModel.getProperty("/ProductCollection"));
+
+			var oModel = this.getView().getModel("JSONModel");
+    
+			// Deep copy of the ProductCollection data
+			this.aProductCollection = deepExtend([], oModel.getProperty("JSONModel>/ProductCollection"));
 			this.byId("editButton").setVisible(false);
 			this.byId("saveButton").setVisible(true);
 			this.byId("cancelButton").setVisible(true);
@@ -66,10 +83,13 @@ sap.ui.define(
 		},
 
 		onCancel: function() {
+
+			var oModel = this.getView().getModel("JSONModel");
+    
 			this.byId("cancelButton").setVisible(false);
 			this.byId("saveButton").setVisible(false);
 			this.byId("editButton").setVisible(true);
-			this.oModel.setProperty("JSONModel>ProductCollection", this.aProductCollection);
+			oModel.setProperty("JSONModel>/ProductCollection", this.aProductCollection);
 			this.rebindTable(this.oReadOnlyTemplate, "Navigation");
 		},
 

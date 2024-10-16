@@ -4,9 +4,10 @@
     <Page id="page" title="{i18n>title}">
         <content>
     
-        <Button text="Settings and Menus" press="onclickSettingsandMenus"></Button>
+        <Button text="Settings and Menus Table" press="onclickSettingsandMenus"></Button>
         <Button text="EditableTable" press="onClickEditableTable"></Button>
-        
+        <Button text="DynamicWidthTable" press="onClickDynamicWidthTable"></Button>
+         <Button text="EditableTable(Row)" press="onClickEditableTableRowTable"></Button>
         </content>
     </Page>
 </mvc:View>

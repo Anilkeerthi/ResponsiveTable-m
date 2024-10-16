@@ -1,0 +1,133 @@
+<mvc:View
+    controllerName="responsivetable.controller.DynamicWidth"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+>
+        <Text text="DynamicWidth Table" />
+     
+     	<MessageStrip
+			id="idMessageStrip"
+			text="Move the splitter to see the container based popin behaviour with dynamic width."
+			type="Success"
+			showIcon="true"
+			showCloseButton="true"
+			class="sapUiMediumMarginBottom">
+	    </MessageStrip>
+
+	<l:ResponsiveSplitter height="100%">
+		<l:PaneContainer>
+			<l:SplitPane requiredParentWidth="500">
+						<Table id="idProductsTableleft"
+								contextualWidth="Auto"
+								popinLayout="GridSmall"
+								headerText="Products"
+								items="{
+								path: 'JSONModel>/Dynamic'
+							}">
+							<columns>
+								<Column>
+									<header>
+										<Text text="Product" />
+									</header>
+								</Column>
+								<Column
+									minScreenWidth="phone"
+									demandPopin="true">
+									<header>
+										<Text text="Supplier" />
+									</header>
+								</Column>
+								<Column
+									minScreenWidth="tablet"
+									demandPopin="true"
+									hAlign="Center">
+									<header>
+										<Text text="Status" />
+									</header>
+								</Column>
+								<Column
+									minScreenWidth="Phone"
+									demandPopin="true"
+									hAlign="End">
+									<header>
+										<Text text="Quantity" />
+									</header>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Label
+											text="{JSONModel>Product}"/>
+										<Label
+											text="{JSONModel>Supplier}" />
+										<Label
+											text="{JSONModel>Status}" />
+										<Label
+											text="{JSONModel>Quantity}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+			</l:SplitPane>
+			<l:SplitPane requiredParentWidth="400">
+					<Table id="idProductsTableright"
+								contextualWidth="Auto"
+								popinLayout="GridSmall"
+								headerText="Products"
+								items="{
+								path: 'JSONModel>/Dynamic'
+							}">
+							<columns>
+								<Column>
+									<header>
+										<Text text="Product" />
+									</header>
+								</Column>
+								<Column
+									minScreenWidth="phone"
+									demandPopin="true">
+									<header>
+										<Text text="Supplier" />
+									</header>
+								</Column>
+								<Column
+									minScreenWidth="tablet"
+									demandPopin="true"
+									hAlign="Center">
+									<header>
+										<Text text="Status" />
+									</header>
+								</Column>
+								<Column
+									minScreenWidth="Phone"
+									demandPopin="true"
+									hAlign="End">
+									<header>
+										<Text text="Quantity" />
+									</header>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Label
+											text="{JSONModel>Product}"/>
+										<Label
+											text="{JSONModel>Supplier}" />
+										<Label
+											text="{JSONModel>Status}" />
+										<Label
+											text="{JSONModel>Quantity}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+			</l:SplitPane>
+		</l:PaneContainer>
+	</l:ResponsiveSplitter>
+
+</mvc:View>
